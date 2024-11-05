@@ -18,29 +18,39 @@
 /*-----------
    HEADER
 ------------*/
-.header {
+.header-top{
     background-color: #add8e6;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-
+    padding:  15px 0;
 }
-.header .logo {
-    width: 20%;
-    background-color: #ffd700;
-    text-align: center;
-    padding: 10px;
+.header-bottom {
+    background-color: #00008b;
+    padding: 200px;
 }
-.header .nav {
+.header-top > .container {
+    display:flex;
+    background-color: #daa520;
+}
+.header-top .logo,
+.header-top nav,
+.header-top . login {
+    border: 1px dashed black;
+    padding: 6px;
+}
+.header-top .logo, .header-top .login {
+    width 20%
+}
+.header-top .login {
+    text-align: right ;
+}
+.header-top nav {
     width: 60%;
-    display: flex;
     text-align: center;
-    justify-content:space-between
-    padding: 10px;
-    background-color: #ffd700;
 }
-.header .login {
-    width: 20%;
-    background-color: #ffd700;
-    text-align: center;
-    padding: 10px;
+.rectangle {
+    padding: 100px;
+    background-color: white;
+    height: 200px;
+    width: 1200px;
+    border: black solid;
+    
+}
