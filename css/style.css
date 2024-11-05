@@ -78,8 +78,28 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.rectangle-grey {
+    background-color: grey;
+    height: 400px;
+    width: 100px; 
+    border: white dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rectangle-red {
+    padding: 100px;
+    background-color: pink;
+    height: 400px;
+    width: 200px; 
+    border: black dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;}
 .background{
     background-color: #D3D3D3;
+}
+
+.background-2 {
+    background-color: #23272A;
 }
 .square{
     padding:100px;
@@ -88,5 +108,7 @@
     background-color:#228B22;
     border: black dashed;
     margin-left: 400px;
+    margin-top: 50px;
+  
 }
     
