@@ -32,7 +32,7 @@
 }
 .header-top .logo,
 .header-top nav,
-.header-top . login {
+.header-top .login {
     border: 1px dashed black;
     padding: 6px;
 }
@@ -46,11 +46,41 @@
     width: 60%;
     text-align: center;
 }
+.rectangle-container {
+    display: flex;
+    justify-content: center; /
+    gap: 0px; }
+
 .rectangle {
     padding: 100px;
     background-color: white;
     height: 200px;
     width: 1200px;
-    border: black solid;
+    border: black dashed;
     
+}
+.rectangle-pink {
+    padding: 100px;
+    background-color: pink;
+    height: 400px;
+    width: 600px; 
+    border: black dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rectangle-lightblue {
+    padding: 100px;
+    background-color: lightblue;
+    height: 400px; 
+    width: 300px;
+    border: black dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.background{
+    background-color: #D3D3D3;
+}
+.square{
+    padding:100px
 }
