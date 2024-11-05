@@ -82,5 +82,11 @@
     background-color: #D3D3D3;
 }
 .square{
-    padding:100px
+    padding:100px;
+    height:650px;
+    width:650px;
+    background-color:#228B22;
+    border: black dashed;
+    margin-left: 400px;
 }
+    
