@@ -21,6 +21,7 @@
 .header-top{
     background-color: #add8e6;
     padding:  15px 0;
+    justify-content: space-between;
 }
 .header-bottom {
     background-color: #00008b;
@@ -29,12 +30,16 @@
 .header-top > .container {
     display:flex;
     background-color: #daa520;
+    align-items: center;
+    justify-content:  space-between;
+    
 }
 .header-top .logo,
 .header-top nav,
 .header-top .login {
     border: 1px dashed black;
     padding: 6px;
+    
 }
 .header-top .logo, .header-top .login {
     width 20%
@@ -46,6 +51,13 @@
     width: 60%;
     text-align: center;
 }
+.login{
+    position:relative;
+    right: 2px;
+}
+/*---------
+   Figure
+---------*/
 .rectangle-container {
     display: flex;
     justify-content: center; /
@@ -94,14 +106,8 @@
     border: black dashed;
     margin-top: 50px;
     margin-bottom: 50px;}
-.background{
-    background-color: #D3D3D3;
-}
-
-.background-2 {
-    background-color: #23272A;
-}
-.square{
+    
+    .square{
     padding:100px;
     height:650px;
     width:650px;
@@ -109,6 +115,16 @@
     border: black dashed;
     margin-left: 400px;
     margin-top: 50px;
-  
+  /*--------
+    BACKGROUD
+ ----------*/
 }
+.background{
+    background-color: #D3D3D3;
+}
+
+.background-2 {
+    background-color: #23272A;
+}
+
     
